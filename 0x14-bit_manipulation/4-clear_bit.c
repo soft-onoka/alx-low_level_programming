@@ -1,13 +1,10 @@
 /**
-
- * clear_bit - function that sets the value of a bit to 0 at a given index
-
+ * clear_bit- function that sets the value of a bit to 0 at a given index.
  * @n: pointer to a number
-
  * @index: where to set the bit to 0
-
- *  Return: 1 (success) else -1
-    */
+ *
+ * Return: 1 (Sucess) else -1
+ */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	if (index > 64)

@@ -12,7 +12,7 @@
  *
  * Return: the number of characters printed, or 0 on failure
  */
-size_t read_textfile(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd, err, rd;
 	char *buf;
